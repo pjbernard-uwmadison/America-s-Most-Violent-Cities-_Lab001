@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+            <title>America's Most Violent Cities</title>
+
+        <!--put your external stylesheet links here-->
+        <link rel="stylesheet" href="_css/style.css">
+        <link rel="stylesheet" href="_lib/leaflet.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <!--[if IE<9]>
+            <link rel="stylesheet" href="css/style.ie.css">
+        <![endif]-->
+    </head>
+
+    <body>
+        <!--put your initial page content here-->
+        <div id="wrapper">
+            <header>
+                <h1>America's Most Violent Cities - An Interactive Geovisualization</h1>
+            </header>
+            <div id="contentWrapper">
+                <div id="mapid"></div>
+                <div id="rightPanelWrapper">
+                    <div id="rightPanelHeader">
+                        <h3>Content Controls</h3>
+                    </div>
+                    <br>
+                    <div id="slider"></div>
+                    <br>
+                    <br>
+                    <div id="panelButton">
+                        <button id="togglePercentChange">Click to show/hide percent change</button>
+                        <p><i>Click the above button to show/hide the percentage change in violent crime rate since 1985.</i></p>
+                    </div>
+                </div>
+                <div id="leftPanelWrapper">
+                <div id="leftPanelHeader">
+                    <h3>Content Information</h3>
+                </div>
+                <div id="panel">
+                    <p><b>Click on a city to find out more information.</b></p></div>
+                </div>
+                </div>
+            <div id="footer">
+                <p id="footerLeft">Paul Bernard - GEOG575 - Lab 1 - 3/4/2019</p>
+                <p id="footerRight">
+                    <a href="https://www.ucrdatatool.gov/">Uniform Crime Reporting Statistics</a>
+                    <a href="https://www.census.gov/data.html">Census Data</a>
+                </p>
+            </div>
+        </div>
+
+        <!--you can also use this space for internal scripts or stylesheets;
+        place these within <script> or <style> tags-->
+
+        <!--put your external script links here-->
+        <script type="text/javascript" src="_lib/leaflet-src.js"></script>
+        <script type="text/javascript" src="_lib/jquery-3.3.1.js"></script>
+        <script type="text/javascript" src="_js/main.js"></script>
+        <script type="text/javascript" src="_js/geojson.js"></script>
+    </body>
+</html>

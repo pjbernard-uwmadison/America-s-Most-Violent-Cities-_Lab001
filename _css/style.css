@@ -1,0 +1,197 @@
+body {
+    /*background-color:lightgrey;*/
+    /*background image courtesy of Julien Renvoye source thepatterlibrary.com/#shattered-island*/
+    background-image:url("../_img/shattered-island.gif");
+    background-repeat:repeat;
+    background-color:white;
+    height:100%;
+}
+
+#mapid {
+    height:600px;
+    border-radius:15px;
+}
+
+.leaflet-popup-content {
+    margin: 0.2 em 0;
+    font-family: helvetica;
+    color: black;
+}
+
+#panel {
+    height:200px;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* credits to W3 schools for the range-slider CSS styling*/
+.range-slider {
+    position:relative;
+    transform:translate(0%,35%);
+    -webkit-appearance: none;
+    width:75%;
+    height: 15px;
+    border-radius:10px;
+    background:lightgrey;
+    outline:none;
+    opacity:0.7;
+    -webkit transition: .2s;
+    transition: opacity .2s;
+}
+
+.range-slider:hover {
+    opacity: 1;
+}
+
+.range-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance:none;
+    width: 25px;
+    height: 25px;
+    border-radius:50%;
+    background:darkblue;
+    cursor: pointer;
+}
+
+#forward {
+    float: right;
+    background-color:whitesmoke;
+    border:none;
+    color:darkblue;
+    font-size:25px;
+    
+}
+
+#forward:active {
+    color:blue;
+}
+
+#reverse {
+    float: left;
+    background-color:whitesmoke;
+    border:none;
+    color:darkblue;
+    font-size:25px;
+}
+
+#reverse:active {
+    color:blue;
+}
+
+#test {
+    color:orange;
+}
+
+header {
+    background-color: darkblue;
+    padding: .1em;
+    font-family: rockwell;
+    color: white;
+    margin: 0px 0px 10px 0px;
+}
+
+#footer {
+    overflow:auto;
+    padding:.05em;
+    background-color:darkblue;;
+    margin:10px 0px 0px 0px;
+    clear:both;
+    color:white;
+}
+
+#footerLeft {
+    float:left;
+    font-family:rockwell;
+    font-weight: bold;
+}
+
+#footerRight {
+    float:right;
+    font-family:rockwell;
+    font-weight:bold;
+}
+
+#contentWrapper {
+    max-width:1000px;
+    margin: 0 auto;
+    overflow:auto;
+}
+
+/* link styling */
+a:link {
+    color:white;
+    text-decoration:none;
+}
+
+a:visited {
+    color:white;
+    text-decoration:none;
+}
+
+a:hover, a:active {
+    color:lightblue;
+    text-decoration:underline;
+}
+
+#leftPanelWrapper {
+    text-align:center;
+    border-radius:25px;
+    background-color:whitesmoke;
+    width:445px;
+    height:300px;
+    margin:10px 5px 10px 10px;
+    padding:20px;
+    float:left;
+    clear:left;
+    font-family:rockwell;
+    
+}
+
+#rightPanelWrapper {
+    text-align:center;
+    border-radius:25px;
+    background-color:whitesmoke;
+    width:445px;
+    height:300px;
+    margin:10px 10px 10px 5px;
+    float:right;
+    padding:20px;
+    font-family:rockwell;
+}
+
+h3 {
+    font-family:rockwell;
+    font-size:22px;
+    text-align:center;
+    text-decoration:underline;
+    color:black
+}
+
+#togglePercentChange {
+    background-color:darkblue;
+    border: none;
+    color: whitesmoke;
+    padding: 15px 32px;
+    text-align:center;
+    display:inline-block;
+    font-weight:bold;
+    border-radius:10px;
+}
+
+#togglePercentChange:active {
+    background-color:blue;
+}
+
+.legend-control-container {
+    background-color:grey;
+    border-radius:25px;
+}
+
+#temporal-legend {
+    text-align:center;
+    font-family:rockwell;
+    font-size:16px;
+    font-weight:bold;
+    color:black;
+}
