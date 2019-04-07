@@ -1,0 +1,189 @@
+.gratLines {
+    fill: none;
+    stroke: #999;
+    stroke-width: 1px;
+}
+
+.gratBackground {
+    fill: #D5E3FF;
+}
+
+.map {
+    border: medium solid #999;
+    margin: 10px;
+    display:inline-block;
+}
+
+.countries, .classBreak {
+    stroke: #000;
+    stroke-width: 0.5px;
+    stroke-linecap: round;
+}
+
+.chart {
+    float: right;
+    margin: 7px 20px 7px 0px;
+}
+
+.numbers {
+    fill: white;
+    font-family: sans-serif;
+}
+
+.chartTitle {
+    font-family: sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.chartBackground {
+    fill: white;
+}
+
+.chartFrame {
+    fill: none;
+    stroke: #999;
+    stroke-width: 3px;
+    shape-rendering: crispEdges;
+}
+
+.axis path, .axis line {
+    fill: none;
+    stroke: #999;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 0.75em;
+    fill: black;
+    font-family:trebuchet ms;
+}
+
+.dropdown {
+    position:relative;
+    bottom:825px;
+    right: 150px;
+    z-index: 10;
+    font-family: trebuchet ms;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 2px;
+    border: 1px solid #999;
+    box-shadow: 2px 2px 4px darkgrey;
+}
+
+.legend {
+    position:relative;
+    bottom:250px;
+    right: 300px;
+    z-index: 10;
+}
+
+option {
+    font-weight: normal;
+}
+
+.infolabel {
+    position: absolute;
+    min-width: 100px;
+    color: white;
+    background-color: blue;
+    padding: 5px 10px;
+    top: -75px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 4px darkgrey;
+}
+
+.legendTitle {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.header {
+    overflow:auto;
+    height:100%;
+    background-color:blue;
+    color:white;
+    font-family:trebuchet ms;
+}
+
+.mainTitle {
+    margin:0;
+    padding: 15px 0 5px 15px;
+    width:60%;
+    float:left;
+}
+
+.mainTitleSubtext {
+    margin:0;
+    font-style:italic;
+    padding:0 0 15px 15px;
+    width:60%;
+    float:left;
+}
+
+nav {
+    margin:0;
+    float:right;
+    width:30%;
+    text-align:right;
+    padding:0 15px 0 0;
+}
+
+
+
+.mainContentWrapper {
+    overflow:hidden;
+    height:100%;
+}
+
+.mapContainer {
+    width:60%;
+    float:left;
+    text-align:center;
+    max-height:720px;
+}
+
+.metadataContainerOuterDiv {
+    width:40%;
+    float:left;
+}
+
+.metadataContainer {
+    box-sizing:border-box;
+    width:100%;
+    float:left;
+    padding:1em;
+    font-family:trebuchet ms;
+    font-size: .8em;
+}
+
+.chartContainer {
+    width:40%;
+    float:left;
+}
+
+.footer {
+    background-color:blue;
+    padding:.5em;
+    text-align:center;
+    color:white;
+    font-family:trebuchet ms;
+}
+
+a:link,a:visited {
+    color:white;
+    text-decoration:none;
+}
+
+a:hover {
+    color:lightblue;
+    text-decoration:none;
+}
+
+a:active {
+    color:darkblue;
+    text-decoration:none;
+}
